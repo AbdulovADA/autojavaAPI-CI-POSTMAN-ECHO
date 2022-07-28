@@ -22,7 +22,7 @@ public class PostmanEchoTest {
                 .then()
                 .statusCode(200)
                 //.body(/* --> ваша проверка здесь <-- */)
-                .body("data", equalTo("data man"))
+                .body("data", equalTo("data manager"))
         ;
     }
 }
